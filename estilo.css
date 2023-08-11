@@ -1,0 +1,79 @@
+
+html,body {
+    margin:0;
+    background-color: #59ba47;
+}
+
+
+#imagem-fundo {
+    background: url(pexels-veeterzy-38136.jpg);
+    height: 10%;
+    text-align: center; 
+    background-size: cover;  
+}
+
+
+#titulo {
+    color: white;
+    padding-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100;
+}
+#subtitulo {
+    color: white;
+    padding: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1x 1x black;
+}
+
+p{
+    color: beige;
+    padding: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#ODS {
+    background-color: #59ba47;
+}
+
+#ONU {
+    background-color: #0086cd ;
+    width: auto;
+
+}
+
+#video{ 
+text-align: center;
+align-tracks: center;}
+
+.coluna{
+    float:right;
+    padding: 0 5%;
+    position:relative;
+    width: 30%;
+}
+
+.coluna2 {
+    float:left;
+    padding: 0 5%;
+    position:relative;
+    width: 30%;
+
+
+
+}
+
+
+footer { background-color: #59ba47;
+    text-align: center;
+    padding-top: 30%;
+
+
+}
+
+h3{ color: beige;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+h4{ color: beige;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
