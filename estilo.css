@@ -2,12 +2,13 @@
 html,body {
     margin:0;
     background-color: #59ba47;
+    color: bisque;
 }
+
 
 
 #imagem-fundo {
     background: url(pexels-veeterzy-38136.jpg);
-    height: 10%;
     text-align: center; 
     background-size: cover;  
 }
@@ -17,63 +18,57 @@ html,body {
     color: white;
     padding-top: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 100;
+    font-size: 300;
+    font-weight: bold;
 }
+
+
 #subtitulo {
     color: white;
     padding: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 1x 1x black;
+    border-bottom: #59ba47;
 }
 
 p{
     color: beige;
-    padding: 10%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
-#ODS {
-    background-color: #59ba47;
+
+.banner-ods {
+  background-color: #59ba47;
+  padding: 10px;
+  text-align: center;
+  color: bisque;
+
 }
 
-#ONU {
-    background-color: #0086cd ;
-    width: auto;
+.banner-onu {
+  background-color:#0086cd;
+  padding: 10px;
+  color: bisque;
+  text-align: center;
 
 }
 
 #video{ 
+color: white;
 text-align: center;
-align-tracks: center;}
-
-.coluna{
-    float:right;
-    padding: 0 5%;
-    position:relative;
-    width: 30%;
-}
-
-.coluna2 {
-    float:left;
-    padding: 0 5%;
-    position:relative;
-    width: 30%;
-
-
-
-}
+align-tracks: center;
+padding: 5%; 
+background: url(pexels-veeterzy-38136.jpg);}
 
 
 footer { background-color: #59ba47;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 10px;
 
 
 }
 
-h3{ color: beige;
+
+h3 { color: beige;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-h4{ color: beige;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}

@@ -5,68 +5,77 @@
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Paloma Rossi">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title> ODS 15</title>
  </head>
  <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="hero-content"> Inicio </a> </li>
-                <li><a href="container"> Metas </a> </li>
-                <li><a href="#"> Saiba mais </a> </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" container-fluid center-aling" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#inicio">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#onu">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#video">Saiba mais</a>
+            </li>
+        </div>
+      </nav>
 
-        </ul>
-    </nav>
-    <div id="imagem-fundo" >
+    <div id="imagem-fundo" id="inicio">
 
         <h1 id="titulo">Precisamos cuidar da vida terrestre</h1>
     <h2 id="subtitulo"> Conheça mais sobre a ODS 15</h2>
 
-
 </div>
-
-            <section id="ODS" >
-          
-                        <div class="coluna">
-                        <img src="ODS15-1.jpg" alt="Identidade visual ODS 15" width="50%">
-                  </div>
-                  
-                  <div class="coluna">
-                                    <p>  Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, gerir de forma sustentável as florestas, 
-                                        combater a desertificação, deter e reverter a degradação da terra e deter a perda de biodiversidade
-
-                                 </p> 
-                  </div>
-            </section>
+<section class="banner-ods">
+	<div class="container">
+	<div class="row">
+		<div class="col-12 col-sm-6 order-sm-2 align-self-center">
+            <h4> Vida Terrestre </h4>
+			<p>  Proteger, recuperar e promover o uso sustentável dos ecossistemas terrestres, gerir de forma sustentável as florestas, combater a desertificação, deter e reverter a degradação da terra e deter a perda de biodiversidade</p>
+		</div>
+		<div class="col-12 col-sm-4 order-2 order-sm-1">
+			<img src="ODS15-1.jpg" width="60%" class="img-destaque d-block mx-auto mt-3" alt="Foto Paloma Rossi">
+		</div>
+	</div>
+	</div>
+</section>
             
-             <section id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5TYYyD7HB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section id="video">
+         <div>
             <h4> IBGE Explica - ODS Vida Terrestre </h4>
-        </section>
-
-    <section id="ONU">     
-            <div class="coluna2">
-            <img src="ONU.jpg" alt="Identidade visual ONU">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5TYYyD7HB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <div class="coluna2">
-            <h4> Conheça a ONU </h4>
-            <p>
-                A Organização das Nações Unidas (ONU) é um órgão internacional criado em 24 de outubro de 1945, após a Segunda Guerra Mundial e 
-                sediada na cidade de Nova Iorque, nos Estados Unidos.
+    </section>
 
-               A função do órgão é manter a paz e a segurança internacional, bem como desenvolver a cooperação entre os povos.
+    <section class="banner-onu" id="onu">
+        <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 order-sm-2 align-self-center">
+                <h4> Conheça a ONU </h4>
+                <p>A Organização das Nações Unidas (ONU) é um órgão internacional criado em 24 de outubro de 1945, após a Segunda Guerra Mundial e 
+                    sediada na cidade de Nova Iorque, nos Estados Unidos. A função do órgão é manter a paz e a segurança internacional, bem como desenvolver a cooperação entre os povos.
+ Ele busca solucionar os problemas sociais, humanitários, culturais e econômicos, promovendo o respeito às liberdades fundamentais e aos direitos humanos.
+                </p>            
+            </div>
 
-               Ele busca solucionar os problemas sociais, humanitários, culturais e econômicos, promovendo o respeito às liberdades fundamentais e aos direitos humanos.
-            </p>
-
+            <div class="col-12 col-sm-4 order-2 order-sm-1">
+                <img src="ONU.jpg" width="100%" class="img-destaque d-block mx-auto mt-3" alt="Logo ONU">
+            </div>
         </div>
-        </section>  
-       <br>
-    
+        </div>
+    </section>
 
     <footer>
-        <h3> Feito por Paloma Rossi, 2023</h3>
+        <h3> Feito por Paloma Rossi para o projeto ElasNaTech, 2023</h3>
+        <p> Créditos: Logo ODS e ONU foram retirados do site da ONU. Imagem de fundo site pexels</p>
     </footer>
 
  </body>
